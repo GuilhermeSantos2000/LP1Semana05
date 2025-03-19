@@ -16,7 +16,7 @@ namespace LevelOne
     public class AnotherMethod
     {
         /// <summary>
-        /// Just a different method.
+        /// Just a different method, again.
         /// </summary>
         private static void Main(string[] args)
         {
