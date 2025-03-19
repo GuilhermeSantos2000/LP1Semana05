@@ -13,17 +13,8 @@ namespace LevelOne
         private static void Main(string[] args)
         {
             Console.WriteLine("Hello LP1!");
-        }
-    }
-
-    public class AnotherMethod
-    {
-        /// <summary>
-        /// Just a different method, again.
-        /// </summary>
-        private static void Main(string[] args)
-        {
-            Console.WriteLine("Another Method!");
+            Console.WriteLine("Bad day?");
+            Console.WriteLine("Bye!");
         }
     }
 }
