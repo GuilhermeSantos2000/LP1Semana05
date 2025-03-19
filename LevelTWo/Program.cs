@@ -1,6 +1,7 @@
 ﻿using System;
 using SixLabors.ImageSharp;
 using Spectre.Console;
+using SoGoodLib;
 
 namespace LevelTWo
 {
@@ -8,6 +9,8 @@ namespace LevelTWo
     {
         private static void Main(string[] args)
         {
+            Console.WriteLine(SoGoodClass.SoGoodMethod());
+
             if (args.Length == 2)
             {
                 string ImageName = args[0];
