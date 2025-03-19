@@ -8,13 +8,22 @@ namespace LevelTWo
     {
         private static void Main(string[] args)
         {
-           string ImageName = args[0];
-           int ImageWidth = int.Parse(args[1]);
-
+            if (args.Length == 2)
+            {
+                string ImageName = args[0];
+                int ImageWidth = int.Parse(args[1]);
+                
+                CanvasImage image = new CanvasImage(ImageName);
+                image.MaxWidth(ImageWidth);
+                AnsiConsole.Write(image);
+            }
+            else
+            {
+                CanvasImage image = new CanvasImage("tux.jpg");
+                image.MaxWidth(24);
+                AnsiConsole.Write(image);
+            }
            
-           CanvasImage image = new CanvasImage("tux.jpg");
-           image.MaxWidth(24);
-           AnsiConsole.Write(image);
         }
     }
 }
