@@ -12,4 +12,15 @@ namespace LevelOne
             Console.WriteLine("Hello LP1!");
         }
     }
+
+    public class AnotherMethod
+    {
+        /// <summary>
+        /// Just a different method.
+        /// </summary>
+        private static void Main(string[] args)
+        {
+            Console.WriteLine("Another Method!");
+        }
+    }
 }
