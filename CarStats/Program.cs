@@ -28,7 +28,7 @@ namespace CarStats
 
             foreach (string brand in brands)
             {
-                barChart.AddItem(brand, random.Next(1, 20), Color.Teal);
+                barChart.AddItem(brand, Randomizer.Seed.Next(1, 20), Color.Teal);
             }
 
             AnsiConsole.Write(barChart);
